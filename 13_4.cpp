@@ -9,7 +9,7 @@
 using namespace std;
 
 sturct NoName {
-	NoName():pstring(new std::string), i(0), d(0) { }
+	NoName():pstring(new std::string), i(0), d(0){ }
 	NoName(const NoName & orig)
 	{
 		i = orig.i;
